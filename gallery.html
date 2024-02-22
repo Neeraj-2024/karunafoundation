@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuna Foundation</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- top button -->
+    <div class="fixed-whatsapp position-fixed bottom-0 end-0 m-3 d-flex align-items-center justify-content-center rounded-3">
+        <button onclick="topFunction()" id="top-btn" title="Go to top" style="display: block;" class="btn shadow-none lh-1"><i class="fal fa-arrow-square-up fs-4 text-white"></i></button>
+    </div>
+    <div class="fixed-whatsapp position-fixed bottom-0 start-0 m-3 d-flex align-items-center justify-content-center bg-success rounded-3">
+        <a href="https://wa.me/919911113160" target="_blank"><i class="fab fa-whatsapp fs-2 text-white"></i></a>
+    </div>
+    <!-- navbar -->
+    <div class="main-navbar bg-white position-fixed w-100 top-0 shadow-sm">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" alt="logo" class="img-fluid" style="height: 3rem;">
+                    </a>
+                    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0 align-items-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize fw-bold text-dark" aria-current="page"
+                                    href="index.html">home</a>
+                            </li>
+                            <li class="nav-item mx-lg-1">
+                                <a class="nav-link text-capitalize fw-bold text-dark" href="about.html">about us</a>
+                            </li>
+                            <li class="nav-item mx-lg-1">
+                                <a class="nav-link text-capitalize fw-bold text-dark" href="ourwork.html">our work</a>
+                            </li>
+                            <li class="nav-item mx-lg-1">
+                                <a class="nav-link text-capitalize fw-bold text-dark" href="mission.html">mission & vision</a>
+                            </li>
+                            <li class="nav-item mx-lg-1">
+                                <a class="nav-link text-capitalize fw-bold text-dark" href="gallery.html">gallery</a>
+                            </li>
+                            <li class="nav-item mx-lg-1">
+                                <a class="nav-link text-capitalize fw-bold text-dark" href="contact.html">contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <button
+                                    class="btn text-dark border border-2 shadow-none d-lg-block d-none rounded-0 py-1 px-2"
+                                    type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                    aria-controls="offcanvasRight">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header justify-content-end">
+                <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <h3 class="text-center">Get In touch with us</h3>
+                <div class="header-contact my-3">
+                    <ul class="p-0">
+                        <li class="text-secondary text-uppercase mb-1">email</li>
+                        <li>
+                            <a href="mailto:karunafoundation@gmail.com"
+                                class="text-decoration-none fw-bold">karunafoundation@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="p-0">
+                        <li class="text-secondary text-uppercase mb-1">phone number</li>
+                        <li>
+                            <a href="tel:1234567890" class="text-decoration-none fw-bold">+91 9911113160</a>
+                        </li>
+                        <li>
+                            <a href="tel:1234567890" class="text-decoration-none fw-bold">+91 9911113160</a>
+                        </li>
+                    </ul>
+                    <ul class="p-0">
+                        <li class="text-secondary text-uppercase mb-1">Name of the Organization</li>
+                        <li class="lh-sm">
+                            “Karuna Foundation ”(KF)
+                        </li>
+                    </ul>
+                    <ul class="p-0">
+                        <li class="text-secondary text-uppercase mb-1">Main office</li>
+                        <li class="lh-sm">
+                            102,  Namoli, Knowledge Park-3rd, Greater Noida-201308, U.P. India
+                        </li>
+                    </ul>
+                    <ul class="p-0">
+                        <li class="text-secondary text-uppercase mb-1">Branch Office</li>
+                        <li class="lh-sm">
+                            E-3091, Raja Ji Puram Lucknow-220017, U.P., India
+                        </li>
+                    </ul>
+                    <div class="header-social mx-5 mt-5">
+                        <ul class="d-flex justify-content-between align-itmes-center p-0">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/facebook.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/instagram.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/whatsapp.png" alt="" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar-end -->
+    <!-- -->
+    <section class="my-5">
+        <div class="aboutbg py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 mx-auto">
+                        <h1 class="text-capitalize text-white text-center mt-5">Karuna Foundation's Gallery</h1>
+                        <nav aria-label="breadcrumb" class="d-flex align-items-center justify-content-center">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="#" class="text-white text-capitalize text-decoration-none">home</a></li>
+                                <li class="breadcrumb-item active text-white text-capitalize" aria-current="page">Karuna Foundation's Gallery</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <section>
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="gallery-col">
+                        <img src="assets/img/about-bg.jpg" alt="" class="img-fluid w-100 radius-15">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter -->
+    <section class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h2 class="fs-2 text-uppercase lh-sm fw-bold mb-3 text-warning text-center">MAKE YOUR OWN DAY OF Help</h2>
+                    <p class="text-center lh-sm">Impacting the lives of the needful by spreading joy among those who need your care and support the most.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-6" style="background:#3be8b0;">
+                    <div class="py-5">
+                        <h2 class="fs-2 text-center mb-2 text-white fw-bold">99%</h2>
+                        <p class="text-center m-0 text-uppercase text-white">FEED CHILDREN</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6" style="background:#fc636b;">
+                    <div class="py-5">
+                        <h2 class="fs-2 text-center mb-2 text-white fw-bold">1,590</h2>
+                        <p class="text-center m-0 text-uppercase text-white">HAPPINESS KITS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6" style="background:#6a67ce;">
+                    <div class="py-5">
+                        <h2 class="fs-2 text-center mb-2 text-white fw-bold">1267+</h2>
+                        <p class="text-center m-0 text-uppercase text-white">CHILD EDUCATION</p>
+                    </div>
+                </div>
+                 <div class="col-lg-3 col-md-6 col-6" style="background:#ffb900;">
+                    <div class="py-5">
+                        <h2 class="fs-2 text-center mb-2 text-white fw-bold">1298+</h2>
+                        <p class="text-center m-0 text-uppercase text-white">HAPPY CHILDREN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- donate -->
+    <section class="py-5" style="background: #5392fb;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3 class="m-0 text-capitalize text-white lh-sm">A family for every child in our lifetime</h3>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="btn my-btn shadow-none rounded-0 px-3 py-2 text-uppercase position-relative overflow-hidden border-warning fw-bold text-white border-2">donate now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer py-5 position-relative">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="elementor-heading-title mb-3">
+                            <ul class="d-flex align-items-center p-0 m-0">
+                                <li><div class="border-bottom me-2 border-2 rounded-pill" style="width: 60px;"></div></li>
+                                <li>
+                                    <h6 class="fs-6 text-uppercase lh-sm m-0 text-white">about company</h6>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="assets/img/logo.png" alt="" style="height: 4.5rem" class="img-fluid bg-white rounded-3 mb-2">
+                        <p class="text-white lh-sm text-capitalize">Ensure Safety of School going kids Making a difference since 2014</p>
+                        <a href="#" class="btn my-btn shadow-none rounded-0 px-3 py-2 text-uppercase position-relative overflow-hidden border-warning fw-bold text-white">Donate Now</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="elementor-heading-title mb-3">
+                            <ul class="d-flex align-items-center m-0 p-0">
+                                <li><div class="border-bottom me-2 border-2 rounded-pill" style="width: 60px;"></div></li>
+                                <li>
+                                    <h6 class="fs-6 text-uppercase lh-sm text-white m-0">Useful Links</h6>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="links-fotter">
+                            <ul class="p-0 m-0">
+                                <li class="text-white text-capitalize ms-3 mb-3">
+                                    <a href="index.html" class="text-decoration-none text-white p-2">home</a>
+                                </li>
+                                <li class="text-white text-capitalize ms-3 mb-3">
+                                    <a href="about.html" class="text-decoration-none text-white p-2">about</a>
+                                </li>
+                                <li class="text-white text-capitalize ms-3 mb-3">
+                                    <a href="contact.html" class="text-decoration-none text-white p-2">contact us</a>
+                                </li>
+                                <li class="text-white text-capitalize ms-3 mb-3">
+                                    <a href="privacy.html" class="text-decoration-none text-white p-2">privacy</a>
+                                </li>
+                                <li class="text-white text-capitalize ms-3 mb-3">
+                                    <a href="ourwork.html" class="text-decoration-none text-white p-2">our work</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="elementor-heading-title mb-3">
+                            <ul class="d-flex align-items-center m-0 p-0">
+                                <li><div class="border-bottom me-2 border-2 rounded-pill" style="width: 60px;"></div></li>
+                                <li>
+                                    <h6 class="fs-6 text-uppercase lh-sm text-white m-0">follow us</h6>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-social">
+                            <ul class="d-flex align-items-center justify-content-between p-0 m-0">
+                                <li class="d-flex align-items-center justify-content-center bg-white rounded-3">
+                                    <a href="#" class="lh-1"><i class="fab fa-facebook fs-3 lh-1"></i></a>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center bg-white rounded-3">
+                                    <a href="#" class="lh-1"><i class="fab fa-whatsapp fs-3 lh-1 text-success"></i></a>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center bg-white rounded-3">
+                                    <a href="#" class="lh-1"><i class="fab fa-twitter fs-3 lh-1"></i></a>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center bg-white rounded-3">
+                                    <a href="#" class="lh-1"><i class="fab fa-instagram fs-3 lh-1 text-danger"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js -->
+    <script src="assets/js/myjs.js"></script>
+    <script> 
+        //Get the button
+        var mybutton = document.getElementById("top-btn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

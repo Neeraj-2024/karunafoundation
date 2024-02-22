@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px){
+	.my-slider .item {
+        height: 350px;
+    }
+    .my-slider .item .cover h1{
+        font-size: 20px !important;
+    }
+    .control-slider{
+        top: 60%;
+    }
+    .elementor-heading-title h2{
+        font-size: 18.72px !important;
+    }
+}

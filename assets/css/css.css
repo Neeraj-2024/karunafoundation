@@ -1,0 +1,377 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*---------------my-css--------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins' !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #edb83e;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #edb83e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #2c3761;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* ---navbar---- */
+.main-navbar {
+  z-index: 1000;
+}
+.main-navbar a:hover{
+  color: #edb83e !important;
+}
+/* ---slider---- */
+.my-slider .item {
+  height: 550px;
+  position: relative;
+}
+.my-slider .item img{
+  object-fit: cover;
+}
+.my-slider .cover {
+  padding: 75px 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+}
+.services .card-group .card .services-box::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-transform 1.5s;
+  transition: -webkit-transform 1.5s;
+  -o-transition: transform 1.5s;
+  transition: transform 1.5s;
+  transition: transform 1.5s, -webkit-transform 1.5s;
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -200%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -200%, 0);
+}
+.services .card-group .card .services-box:hover::before {
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 200%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 200%, 0);
+}
+
+.about-icons i{
+  font-size: 50px;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid red;
+}
+.radius-20{
+  border-radius: 20px !important;
+}
+.radius-15{
+  border-radius: 15px !important;
+}
+.services .card-group .card .services-box img{
+  width:  5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.header-social img{
+  height: 2.5rem;
+}
+.elementor-heading-title h2 {
+  color: #edb83e;
+  letter-spacing: 3px;
+}
+.my-btn {
+  letter-spacing: 2px;
+}
+.my-btn::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: 100%;
+  background: #edb83e;
+  border-radius: 0 0 100% 100%/0 0 100% 100%;
+  -webkit-transition: all 0.6s cubic-bezier(1, 0, 0.55, 1);
+  transition: all 0.6s cubic-bezier(1, 0, 0.55, 1);
+  z-index: -999;
+}
+.my-btn:hover::after {
+  bottom: -10px;
+  border-radius: 0;
+}
+.order-track-status-dot {
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #edb83e;
+}
+.order-track-status-line {
+  width: 2px;
+  background: #edb83e;
+}
+#top-btn {
+  display: none;
+  z-index: 99;
+  background-color: #2c3761;
+  padding: 8px;
+}
+#top-btn:hover{
+  background: #edb83e;
+}
+.events .card img{
+  height: 12rem;
+  object-fit: cover;
+}
+/* ------fixed-whatsapp----- */
+.fixed-whatsapp{
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+}
+/* ----feedback----*/
+.slider {
+  display: flex;
+  flex: 0 0 1;
+  width: 300%;
+  transition: all 0.5s linear;
+}
+.slide-box .comment {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.86rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.4px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+  position: relative;
+  font-weight: 400;
+}
+.slide-box img {
+  max-width: 60px;
+  border-radius: 50%;
+}
+.control-slider {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  line-height: 40px;
+  color: #333;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
+}
+.btn-left {
+  left: 10px;
+}
+.btn-right {
+  right: 10px;
+}
+/* -----program-col---- */
+.program-col img{
+  height: 20rem;
+  object-fit: cover;
+}
+.program-col::before{
+  content: '';
+  position: absolute;
+  background:  linear-gradient(transparent, #000000);
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.events__bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+/*  */
+.contact-icons{
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #edb83e;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.footer{
+  background-color: #2c3761;
+}
+.links-fotter ul li {
+  list-style: disc;
+}
+.footer-social ul li{
+  width: 3rem;
+  height: 3rem;
+}
+.aboutbg{
+  background: linear-gradient(0deg, rgb(44 55 97 / 80%), rgb(44 55 97 / 80%)),url(../../assets/img/about-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.services .execution{
+  height: 8rem;
+  width: 8rem;
+}
+.programs img{
+  width: 6rem;
+  height: 6rem;
+}
+.programs {
+  box-shadow: 0px 0px 10px 0 rgb(0 0 0 / 20%);
+}
+.gallery-col img{
+  height: 20rem;
+  object-fit: cover;
+}
